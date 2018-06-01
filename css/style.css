@@ -27,7 +27,7 @@ nav li {
     display: inline-block;
     width: 50%;
     padding: 10px;
-    border: 1px solid salmon;
+    border: 1px solid grey;
 }
 
 
@@ -55,7 +55,7 @@ form label {
 }
 
 .box {
-    border: 2px solid red;
+    border: 2px solid grey;
     display: inline-block;
     width: 30%;
     padding: 10px;
@@ -69,5 +69,11 @@ form label {
 }
 
 .btn {
-    transition: background-color 10s ease-in-out;
+    transition: background-color 1s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
 }
