@@ -1,0 +1,65 @@
+* {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+ul,
+li {
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    background-color: bisque;
+    background-image: url("../img/download.jpg");
+    background-position: center bottom;
+}
+
+img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+nav li {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid salmon;
+}
+
+
+/*FORM*/
+
+form {
+    border: 1px solid grey;
+    padding: 30px 20px;
+}
+
+form label {
+    width: 20%;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.formItem {
+    margin-bottom: 20px;
+}
+
+.formItem input,
+.formItem select {
+    width: 70%;
+    padding: 5px;
+}
+
+.box {
+    border: 2px solid red;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+}
