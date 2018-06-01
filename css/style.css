@@ -11,8 +11,6 @@ li {
 body {
     padding: 20px;
     background-color: bisque;
-    background-image: url("../img/download.jpg");
-    background-position: center bottom;
 }
 
 img {
@@ -62,4 +60,14 @@ form label {
     width: 30%;
     padding: 10px;
     margin: 5px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.btn {
+    transition: background-color 10s ease-in-out;
 }
