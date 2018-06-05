@@ -9,3 +9,21 @@ body {
 #mainMenu .active .nav-link {
     cursor: default;
 }
+
+.pippo {
+    color: red;
+    font-size: 20px;
+}
+
+.box {
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orangered;
+}
